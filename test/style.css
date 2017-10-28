@@ -1,0 +1,24 @@
+body {
+  font-family: "Raleway", sans-serif;
+  background: black; }
+  body .jpg1 {
+    background: url(../img/1.jpeg); }
+  body .jpg2 {
+    background: url(../img/2.jpeg); }
+  body .jpg3 {
+    background: url(../img/3.jpeg); }
+  body .carousel-item {
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh; }
+    body .carousel-item .carousel-caption {
+      bottom: 45vh;
+      text-shadow: 2px 2px 5px black; }
+      body .carousel-item .carousel-caption h2 {
+        font-size: 3em; }
+      body .carousel-item .carousel-caption span {
+        font-size: 6em;
+        font-family: "Lobster", cursive; }
+      body .carousel-item .carousel-caption .btn-custom-primary {
+        font-size: 0.8em; }
